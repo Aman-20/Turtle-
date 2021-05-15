@@ -1,0 +1,13 @@
+import turtle
+
+turtle.bgcolor("Gray")
+turtle.pensize(2)
+turtle.speed(0)
+
+for i in range(1000):
+        turtle.circle(120)
+        turtle.left(5)
+
+turtle.hideturtle()
+
+
